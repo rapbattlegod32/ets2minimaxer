@@ -10,7 +10,11 @@ example:
 
 Write down the distance(KM) and experience(XP) gained from the delivery and make a duplicate line with a comma at the end() and edit those values.
 
-Once you are done with editing the values, open command prompt within the folder by clicking on the address and typing 'cmd', then type 'node index.js' and press enter, you should be presented with the following values:
+Once you are done with editing the values, open command prompt within the folder by clicking on the address and typing 'cmd', then type
+```
+node index.js'
+```
+and press enter, you should be presented with the following values:
 
 ```
 Jobs completed: 0.
