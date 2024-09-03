@@ -13,4 +13,10 @@ let XPperKM = totalXp / totalKm;
 
 let roundedXPperKM = Math.round(XPperKM * 100000) / 100000; 
 
-console.log(`Jobs completed: ${totalJobs}.\nTotal KM: ${totalKm}.\nTotal XP: ${totalXp}.\nXP per KM: ${roundedXPperKM}.`);
+if (roundedXPperKM < 2) {
+    console.log(`Jobs completed: ${totalJobs}.\nTotal KM: ${totalKm}.\nTotal XP: ${totalXp}.\nXP per KM: ${roundedXPperKM}[BAD].`);
+    return;
+} else if (roundedXPperKM > 1.99999999999) {
+    console.log(`Jobs completed: ${totalJobs}.\nTotal KM: ${totalKm}.\nTotal XP: ${totalXp}.\nXP per KM: ${roundedXPperKM}[GOOD].`);
+    return;
+}
