@@ -4,11 +4,20 @@ This is a tiny project I wanted to do, this allows you to store all your ets2 re
 # How to use
 If you haven't got node install it here: https://nodejs.org/en.
 
-Edit the contents of the 'jobs.json' file in the directory.
-Example: 
+Edit the contents of the 'jobs.json' file in the directory,
+example: 
 ![example](https://raw.githubusercontent.com/rapbattlegod32/ets2minimaxer/main/media/examplepic.png)
 
 Write down the distance(KM) and experience(XP) gained from the delivery and make a duplicate line with a comma at the end() and edit those values.
+
+Once you are done with editing the values, open command prompt within the folder by clicking on the address and typing 'cmd', then type 'node index.js' and press enter, you should be presented with the following values:
+
+```
+Jobs completed: 0.
+Total KM: 0.
+Total XP: 0.
+XP per KM: 0[GOOD or BAD].
+```
 
 <!-- Lil something I wanted to make to make my job tracking a bit easier for the 'minimaxer',
 gain 20,000xp under 10,000km. This essentially means completing jobs that give you over
