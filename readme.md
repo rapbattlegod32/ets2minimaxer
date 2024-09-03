@@ -12,7 +12,7 @@ Write down the distance(KM) and experience(XP) gained from the delivery and make
 
 Once you are done with editing the values, open command prompt within the folder by clicking on the address and typing 'cmd', then type
 ```
-node index.js'
+node index.js
 ```
 and press enter, you should be presented with the following values:
 
